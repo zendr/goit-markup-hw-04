@@ -84,6 +84,7 @@ img {
 .nav {
     display: flex;
     margin-left: 93px;
+    align-items: center;
 }
 
  .nav .nav-list {
@@ -116,8 +117,14 @@ img {
      font-size: 14px;
      letter-spacing: 0.02em;
      color: var(--primary-text-color);
+    display: flex;
+    justify-content: center;
+        align-items: center;
  }
 .contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: currentColor;
 }
 
@@ -279,6 +286,7 @@ header {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 16px;
 }
 
 .team-netlist {
@@ -353,9 +361,9 @@ header {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer-logo {
-    padding-bottom: 20px;
-
+.footer-logo .logo {
+    display: block;
+margin-bottom: 20px;
 }
 .footer-logo .logo {
     color: var(--accent-color);
@@ -442,7 +450,6 @@ header {
 .example {
     display: flex;
     flex-wrap: wrap;
-
 }
 .button {
     display: flex;
